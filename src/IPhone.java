@@ -1,8 +1,8 @@
 import dispositivos.computador.NavegadorInternet;
-import dispositivos.musical.RepodutorMusicial;
+import dispositivos.musical.RepodutorMusical;
 import dispositivos.telefonia.AparelhoTelefonico;
 
-public class IPhone implements AparelhoTelefonico, RepodutorMusicial, NavegadorInternet{
+public class IPhone implements AparelhoTelefonico, RepodutorMusical, NavegadorInternet{
  
     public void realizarChamada() {
         
